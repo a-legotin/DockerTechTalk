@@ -1,0 +1,16 @@
+c:\users\a.legotin\documents\visual studio 2015\Projects\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\HTTPListenerSimple.exe.config
+c:\users\a.legotin\documents\visual studio 2015\Projects\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\HTTPListenerSimple.exe
+c:\users\a.legotin\documents\visual studio 2015\Projects\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\HTTPListenerSimple.pdb
+c:\users\a.legotin\documents\visual studio 2015\Projects\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\System.Reactive.Core.dll
+c:\users\a.legotin\documents\visual studio 2015\Projects\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\System.Reactive.Interfaces.dll
+c:\users\a.legotin\documents\visual studio 2015\Projects\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\System.Reactive.Linq.dll
+c:\users\a.legotin\documents\visual studio 2015\Projects\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\System.Reactive.PlatformServices.dll
+c:\users\a.legotin\documents\visual studio 2015\Projects\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\System.Reactive.Windows.Threading.dll
+c:\users\a.legotin\documents\visual studio 2015\Projects\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\System.Reactive.Core.xml
+c:\users\a.legotin\documents\visual studio 2015\Projects\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\System.Reactive.Interfaces.xml
+c:\users\a.legotin\documents\visual studio 2015\Projects\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\System.Reactive.Linq.xml
+c:\users\a.legotin\documents\visual studio 2015\Projects\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\System.Reactive.PlatformServices.xml
+c:\users\a.legotin\documents\visual studio 2015\Projects\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\System.Reactive.Windows.Threading.xml
+c:\users\a.legotin\documents\visual studio 2015\Projects\HTTPListenerSimple\HTTPListenerSimple\obj\Debug\HTTPListenerSimple.csprojResolveAssemblyReference.cache
+c:\users\a.legotin\documents\visual studio 2015\Projects\HTTPListenerSimple\HTTPListenerSimple\obj\Debug\HTTPListenerSimple.exe
+c:\users\a.legotin\documents\visual studio 2015\Projects\HTTPListenerSimple\HTTPListenerSimple\obj\Debug\HTTPListenerSimple.pdb
