@@ -14,13 +14,14 @@ namespace RequestSenderSimple
             var name = "Unnamed container";
             var nameFromEnvVar = Environment.GetEnvironmentVariable("CONNAME");
             if (!string.IsNullOrEmpty(nameFromEnvVar)) name = nameFromEnvVar;
+            Console.WriteLine($"Starting...{uri}, my name is {name}");
             while (failCount < 10)
                 try
                 {
                     var random = new Random(DateTime.Now.Millisecond);
-                    var howLongToSleep = random.Next(10, 200);
+                    var howLongToSleep = random.Next(10, 500);
                     Thread.Sleep(howLongToSleep);
-                    var response = HttpHelper.PostSync(uri, new SimpleRequest {Name = name, Slept = howLongToSleep});
+                    var response = HttpHelper.PostSync(uri, new SimpleRequest { Name = name, Slept = howLongToSleep });
                     Console.WriteLine(response);
                 }
                 catch (Exception ex)
