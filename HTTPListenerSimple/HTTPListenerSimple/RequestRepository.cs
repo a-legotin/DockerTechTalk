@@ -14,6 +14,7 @@ namespace HTTPListenerSimple
 
         public int CountItems()
         {
+            if (Repository == null) Repository = new ConcurrentBag<HttpListenerRequest>();
             return Repository.Count;
         }
 

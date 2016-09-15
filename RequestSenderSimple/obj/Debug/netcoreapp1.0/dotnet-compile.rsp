@@ -90,4 +90,5 @@
 --reference:C:\Users\a.legotin\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\a.legotin\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
 D:\Work\projects\DockerTechTalk\RequestSenderSimple\Program.cs
-D:\Work\projects\DockerTechTalk\RequestSenderSimple\SimpleRequest.cs
+D:\Work\projects\DockerTechTalk\RequestSenderSimple\Classes\HttpHelper.cs
+D:\Work\projects\DockerTechTalk\RequestSenderSimple\Classes\SimpleRequest.cs
