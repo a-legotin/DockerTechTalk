@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Concurrent;
+﻿using System.Collections.Concurrent;
 using System.Net;
 
 namespace HTTPListenerSimple
@@ -15,7 +14,7 @@ namespace HTTPListenerSimple
 
         public int CountItems()
         {
-            throw new NotImplementedException();
+            return Repository.Count;
         }
 
         public static IRepository<HttpListenerRequest> GetRepository()

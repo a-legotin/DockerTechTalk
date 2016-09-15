@@ -14,3 +14,21 @@ c:\users\a.legotin\documents\visual studio 2015\Projects\HTTPListenerSimple\HTTP
 c:\users\a.legotin\documents\visual studio 2015\Projects\HTTPListenerSimple\HTTPListenerSimple\obj\Debug\HTTPListenerSimple.csprojResolveAssemblyReference.cache
 c:\users\a.legotin\documents\visual studio 2015\Projects\HTTPListenerSimple\HTTPListenerSimple\obj\Debug\HTTPListenerSimple.exe
 c:\users\a.legotin\documents\visual studio 2015\Projects\HTTPListenerSimple\HTTPListenerSimple\obj\Debug\HTTPListenerSimple.pdb
+D:\Work\projects\DockerTechTalk\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\HTTPListenerSimple.exe.config
+D:\Work\projects\DockerTechTalk\HTTPListenerSimple\HTTPListenerSimple\obj\Debug\HTTPListenerSimple.exe
+D:\Work\projects\DockerTechTalk\HTTPListenerSimple\HTTPListenerSimple\obj\Debug\HTTPListenerSimple.pdb
+D:\Work\projects\DockerTechTalk\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\HTTPListenerSimple.exe
+D:\Work\projects\DockerTechTalk\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\HTTPListenerSimple.pdb
+D:\Work\projects\DockerTechTalk\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\System.Reactive.Core.dll
+D:\Work\projects\DockerTechTalk\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\System.Reactive.Interfaces.dll
+D:\Work\projects\DockerTechTalk\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\System.Reactive.Linq.dll
+D:\Work\projects\DockerTechTalk\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\System.Reactive.PlatformServices.dll
+D:\Work\projects\DockerTechTalk\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\System.Reactive.Windows.Threading.dll
+D:\Work\projects\DockerTechTalk\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\System.Reactive.Core.xml
+D:\Work\projects\DockerTechTalk\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\System.Reactive.Interfaces.xml
+D:\Work\projects\DockerTechTalk\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\System.Reactive.Linq.xml
+D:\Work\projects\DockerTechTalk\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\System.Reactive.PlatformServices.xml
+D:\Work\projects\DockerTechTalk\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\System.Reactive.Windows.Threading.xml
+D:\Work\projects\DockerTechTalk\HTTPListenerSimple\HTTPListenerSimple\obj\Debug\HTTPListenerSimple.csprojResolveAssemblyReference.cache
+D:\Work\projects\DockerTechTalk\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\Newtonsoft.Json.dll
+D:\Work\projects\DockerTechTalk\HTTPListenerSimple\HTTPListenerSimple\bin\Debug\Newtonsoft.Json.xml
