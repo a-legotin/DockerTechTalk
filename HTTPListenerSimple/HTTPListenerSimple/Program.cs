@@ -14,7 +14,7 @@ namespace HTTPListenerSimple
         {
             var outputWriter = ConsoleOutputWriter.GetOutputWriter();
             var requestRepo = RequestRepository.GetRepository();
-            string url = "http://192.168.1.25";
+            string url = "http://192.168.1.150";
             string port = "9999";
             string prefix = $"{url}:{port}/";
 
