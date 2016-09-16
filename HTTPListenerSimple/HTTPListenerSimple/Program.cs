@@ -23,7 +23,7 @@ namespace HTTPListenerSimple
             var listener = new HttpListener();
             listener.Prefixes.Add(url);
             listener.Start();
-            outputWriter.Write("Welcome to simple HttpListene", Color.DarkGray);
+            outputWriter.Write("Welcome to simple HttpListener", Color.DarkGray);
             outputWriter.Write($"Listening on {url}...", Color.DarkGray);
             var perfTaskCancelToken = new CancellationTokenSource();
             var perfTask = new Task(() => { new PerfMeter(statisticIntervalMs, requestRepo, perfTaskCancelToken); }, TaskCreationOptions.LongRunning);
@@ -37,7 +37,7 @@ namespace HTTPListenerSimple
                     var request = context.Request;
                     var response = context.Response;
                     var requestContent = JsonConvert.DeserializeObject<SimpleRequest>(GetRequestPostData(request));
-                    outputWriter.Write($"Got request from {requestContent.Name}, which slept {requestContent.Slept} ms right befor sending request", Color.Green);
+                    outputWriter.Write($"Got request from {requestContent.Name}, which slept {requestContent.Slept} ms right before sending request", Color.Green);
                     requestRepo.Add(request);
                     string responseString = $"Hey, {requestContent.Name}, your request is {requestRepo.CountItems()} in queue.";
                     var buffer = Encoding.UTF8.GetBytes(responseString);
