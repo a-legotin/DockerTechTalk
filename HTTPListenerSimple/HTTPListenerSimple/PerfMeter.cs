@@ -26,7 +26,7 @@ namespace HTTPListenerSimple
             while (!_token.IsCancellationRequested)
             {
                 int requestsCount = _requestRepo.CountItems();
-                _outputWriter.Write($"avg requests {(requestsCount - _lastKnownRequestsCount) * 1000 / _statisticInterval  } per second", Color.DarkRed);
+                _outputWriter.Write($"avg requests {(requestsCount - _lastKnownRequestsCount) * 1000 / _statisticInterval  } per second", Color.Blue);
                 _lastKnownRequestsCount = requestsCount;
                 Thread.Sleep(_statisticInterval);
             }
