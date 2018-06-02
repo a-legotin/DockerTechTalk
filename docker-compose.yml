@@ -1,15 +1,17 @@
 version: '3.4'
 
 services:
-  httplistenersimple:
-    image: httplistenersimple
-    build:
-      context: .
-      dockerfile: HTTPListenerSimple/Dockerfile
-
   requestsendersimple:
     image: ${DOCKER_REGISTRY}requestsendersimple
     build:
       context: .
       dockerfile: RequestSenderSimple/Dockerfile
+    depends_on:
+      - httplistenersimple
+
+  httplistenersimple:
+    image: ${DOCKER_REGISTRY}httplistenersimple
+    build:
+      context: .
+      dockerfile: HTTPListenerSimple/Dockerfile
 

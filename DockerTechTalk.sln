@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HTTPListenerSimple", "HTTPL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RequestSenderSimple", "RequestSenderSimple\RequestSenderSimple.csproj", "{CD83CE7A-ED2C-4AD8-B9A7-989158432E9D}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{966B6008-F78C-419E-B2A5-F30382564101}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{74D6F995-445C-4640-9ABE-01B438A02DEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{CD83CE7A-ED2C-4AD8-B9A7-989158432E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD83CE7A-ED2C-4AD8-B9A7-989158432E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD83CE7A-ED2C-4AD8-B9A7-989158432E9D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{966B6008-F78C-419E-B2A5-F30382564101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{966B6008-F78C-419E-B2A5-F30382564101}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{966B6008-F78C-419E-B2A5-F30382564101}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{966B6008-F78C-419E-B2A5-F30382564101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74D6F995-445C-4640-9ABE-01B438A02DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D6F995-445C-4640-9ABE-01B438A02DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D6F995-445C-4640-9ABE-01B438A02DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D6F995-445C-4640-9ABE-01B438A02DEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
