@@ -15,7 +15,7 @@ RUN dotnet publish HTTPListenerSimple.csproj -c Release -o /app
 FROM base AS final
 WORKDIR /app
 
-EXPOSE 777
-
 COPY --from=publish /app .
 ENTRYPOINT ["dotnet", "HTTPListenerSimple.dll"]
+
+EXPOSE 777

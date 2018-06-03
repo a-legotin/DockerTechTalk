@@ -1,17 +1,18 @@
 version: '3.4'
 
 services:
-  requestsendersimple:
-    image: ${DOCKER_REGISTRY}requestsendersimple
-    build:
-      context: .
-      dockerfile: RequestSenderSimple/Dockerfile
-    depends_on:
-      - httplistenersimple
-
   httplistenersimple:
-    image: ${DOCKER_REGISTRY}httplistenersimple
+    image: httplistenersimple
     build:
       context: .
       dockerfile: HTTPListenerSimple/Dockerfile
+    expose:
+      - "777"
+    ports:
+      - "777"
 
+  requestsendersimple:
+    image: requestsendersimple
+    build:
+      context: .
+      dockerfile: RequestSenderSimple/Dockerfile

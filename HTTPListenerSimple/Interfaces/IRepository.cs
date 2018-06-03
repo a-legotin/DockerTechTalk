@@ -2,11 +2,11 @@
 
 namespace HTTPListenerSimple
 {
-    public interface IRepository<T>
-    {
-        ConcurrentBag<T> Repository { get; set; }
+  public interface IRepository<T>
+  {
+    ConcurrentBag<T> Repository { get; set; }
 
-        void Add(T item);
-        int CountItems();
-    }
+    void Add(T item);
+    int CountItems();
+  }
 }

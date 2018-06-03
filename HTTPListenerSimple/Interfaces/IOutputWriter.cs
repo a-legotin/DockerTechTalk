@@ -2,8 +2,8 @@
 
 namespace HTTPListenerSimple
 {
-    public interface IOutputWriter
-    {
-        void Write(string output, Color color);
-    }
+  public interface IOutputWriter
+  {
+    void Write(string output, Color color);
+  }
 }
