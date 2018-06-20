@@ -1,6 +1,6 @@
-﻿using System;
+﻿using RequestSenderSimple.Classes;
+using System;
 using System.Threading;
-using RequestSenderSimple.Classes;
 
 namespace RequestSenderSimple
 {
@@ -10,7 +10,7 @@ namespace RequestSenderSimple
 
         public static void Main(string[] args)
         {
-            var uri = Environment.GetEnvironmentVariable("SURL");
+            var uri = "http://192.168.1.25:6075/";
             var name = "Unnamed container";
             var nameFromEnvVar = Environment.GetEnvironmentVariable("CONNAME");
             if (!string.IsNullOrEmpty(nameFromEnvVar)) name = nameFromEnvVar;
